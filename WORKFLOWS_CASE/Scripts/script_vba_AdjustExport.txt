@@ -1,0 +1,17 @@
+Sub AjustarParaPDF()
+    Dim ws As Worksheet
+    Set ws = ActiveSheet
+    
+    ws.Columns("B:B").ColumnWidth = 50
+	ws.Columns("D:D").ColumnWidth = 21
+	ws.Columns("G:G").ColumnWidth = 21
+    
+    ' Configuração da página
+    With ws.PageSetup
+        .Orientation = xlLandscape
+        .Zoom = False
+        .FitToPagesWide = 1
+        .FitToPagesTall = False
+        .PrintArea = ws.UsedRange.Address
+    End With
+End Sub
