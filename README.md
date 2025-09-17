@@ -115,18 +115,20 @@ Ele é dividido em duas subpastas:
 
 ## 🗂 Estrutura Final de Pastas
 
+```
 Data/
 ├── Input/
-│ ├── Vendor List.xlsx
-│ └── Sales List.pdf
+│   ├── Vendor List.xlsx
+│   └── Sales List.pdf
 ├── Temp/
-│ └── Template.xlsx
+│   └── Template.xlsx
 └── Output/
-├── Relatório de Vendas.xlsx
-├── Relatório de Erros.xlsx
-└── Sales Report/
-├── Relatorios_Processamento/
-└── Relatorios_Prontos/
+    ├── Relatório de Vendas.xlsx
+    ├── Relatório de Erros.xlsx
+    └── Sales Report/
+        ├── Relatorios_Processamento/
+        └── Relatorios_Prontos/
+```
 
 ## 🛠 Tecnologias Utilizadas
 
