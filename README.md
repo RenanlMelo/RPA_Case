@@ -1,4 +1,4 @@
-# 📄 RPA Case – Nubank
+# 📄 RPA Case
 
 ## 1. Introdução
 
